@@ -1,4 +1,4 @@
-"""Character Forge: a beginner-friendly D&D character builder (SRD 5.2 rules).
+"""Character Forge: The Seven Trials - a beginner-friendly D&D character builder (SRD 5.2 rules).
 
 Run:   python main.py
 Tests: python main.py --test
@@ -375,7 +375,8 @@ def export(character):
 
 
 def main():
-    print('CHARACTER FORGE - build a D&D hero, pass the Seven Trials, play it in Owlbear Rodeo')
+    print('CHARACTER FORGE: THE SEVEN TRIALS')
+    print('Build a D&D hero, pass the Seven Trials, play it in Owlbear Rodeo.')
     character = None
     while True:
         print('\n1. Create a new character')

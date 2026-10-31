@@ -1,8 +1,10 @@
-# Character Forge — Seven Trials Edition
+# Character Forge: The Seven Trials
 
 A beginner-friendly D&D character builder for COMP9001, using the free SRD 5.2 (2024) rules.
 
 Character Forge builds a level-1 hero, quizzes the player on **their own character's strengths and weaknesses** (the *Seven Trials*), and exports a `.codex.json` file. The file is imported into **Valdur's Heroic Codex** in **Owlbear Rodeo** and linked to a token, ready to play with a DM.
+
+**Why I made it:** when my friends and I built our first characters for a tabletop game, we used an Excel sheet. The layout was cluttered, we did not know where to start, and changing one choice did not update everything that depended on it. Character Forge turns that process into clear steps, works out the numbers for you, and helps new players understand their character and get curious about the world.
 
 **Who it is for:** players who have never played D&D. Beginners often don't know that a wizard should stay out of melee, that a fighter without Darkvision needs a torch, or that an elf can't be put to sleep by magic. Character Forge teaches exactly these things.
 
