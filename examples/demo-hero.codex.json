@@ -1,0 +1,483 @@
+{
+  "format": "valdurs-codex",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-31T17:17:58.790181Z",
+  "sheets": [
+    {
+      "id": "shfed4df21",
+      "kind": "character",
+      "rules": "2024",
+      "name": "Demo Hero",
+      "subtitle": "Goliath Warlock 1",
+      "hp": {
+        "cur": 10,
+        "max": 10,
+        "temp": 0
+      },
+      "ac": 15,
+      "prof": 2,
+      "death": {
+        "s": 0,
+        "f": 0
+      },
+      "abilities": {
+        "str": {
+          "score": 14,
+          "save": false
+        },
+        "dex": {
+          "score": 18,
+          "save": false
+        },
+        "con": {
+          "score": 14,
+          "save": false
+        },
+        "int": {
+          "score": 13,
+          "save": false
+        },
+        "wis": {
+          "score": 9,
+          "save": true
+        },
+        "cha": {
+          "score": 15,
+          "save": true
+        }
+      },
+      "skills": {
+        "acrobatics": 0,
+        "animal": 0,
+        "arcana": 1,
+        "athletics": 0,
+        "deception": 0,
+        "history": 1,
+        "insight": 0,
+        "intimidation": 1,
+        "investigation": 0,
+        "medicine": 0,
+        "nature": 0,
+        "perception": 0,
+        "performance": 0,
+        "persuasion": 0,
+        "religion": 1,
+        "sleight": 0,
+        "stealth": 0,
+        "survival": 0
+      },
+      "actions": [
+        {
+          "id": "ae5e87f31",
+          "name": "Unarmed Strike",
+          "act": "A",
+          "range": "Melee · 5 ft",
+          "hit": {
+            "ab": "str",
+            "prof": true,
+            "flat": 0
+          },
+          "save": null,
+          "dmg": [
+            {
+              "n": 0,
+              "d": 4,
+              "ab": "str",
+              "flat": 1,
+              "type": "bludgeoning"
+            }
+          ],
+          "uses": null,
+          "desc": ""
+        },
+        {
+          "id": "ae777bcf0",
+          "name": "Sickle",
+          "act": "A",
+          "range": "Melee · 5 ft",
+          "hit": {
+            "ab": "str",
+            "prof": true,
+            "flat": 0
+          },
+          "save": null,
+          "dmg": [
+            {
+              "n": 1,
+              "d": 4,
+              "ab": "str",
+              "flat": 0,
+              "type": "slashing"
+            }
+          ],
+          "uses": null,
+          "desc": "Simple melee weapon, 1d4 slashing. Properties: Light. Mastery: Nick."
+        },
+        {
+          "id": "a723fee39",
+          "name": "Dagger",
+          "act": "A",
+          "range": "Melee · 5 ft (thrown 20/60 ft)",
+          "hit": {
+            "ab": "dex",
+            "prof": true,
+            "flat": 0
+          },
+          "save": null,
+          "dmg": [
+            {
+              "n": 1,
+              "d": 4,
+              "ab": "dex",
+              "flat": 0,
+              "type": "piercing"
+            }
+          ],
+          "uses": null,
+          "desc": "Simple melee weapon, 1d4 piercing. Properties: Finesse, Light, Thrown (Range 20/60). Mastery: Nick."
+        },
+        {
+          "id": "a3d60d173",
+          "name": "Quarterstaff",
+          "act": "A",
+          "range": "Melee · 5 ft",
+          "hit": {
+            "ab": "str",
+            "prof": true,
+            "flat": 0
+          },
+          "save": null,
+          "dmg": [
+            {
+              "n": 1,
+              "d": 6,
+              "ab": "str",
+              "flat": 0,
+              "type": "bludgeoning"
+            }
+          ],
+          "uses": null,
+          "desc": "Simple melee weapon, 1d6 bludgeoning. Properties: Versatile (1d8). Mastery: Topple."
+        }
+      ],
+      "spellcasting": {
+        "ab": "cha",
+        "atk": 0,
+        "dc": 0,
+        "shortRest": true
+      },
+      "slots": {
+        "1": {
+          "max": 1,
+          "used": 0
+        }
+      },
+      "spells": [
+        {
+          "id": "sc294574d",
+          "name": "Chill Touch",
+          "level": 0,
+          "act": "A",
+          "range": "Touch",
+          "conc": false,
+          "ritual": false,
+          "hit": true,
+          "save": null,
+          "dmg": [
+            {
+              "n": 1,
+              "d": 10,
+              "ab": "",
+              "flat": 0,
+              "type": "necrotic"
+            }
+          ],
+          "desc": "Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.\n\nCantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+        },
+        {
+          "id": "sdf72ca0c",
+          "name": "Eldritch Blast",
+          "level": 0,
+          "act": "A",
+          "range": "120 ft.",
+          "conc": false,
+          "ritual": false,
+          "hit": true,
+          "save": null,
+          "dmg": [
+            {
+              "n": 1,
+              "d": 10,
+              "ab": "",
+              "flat": 0,
+              "type": "force"
+            }
+          ],
+          "desc": "You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.\n\nCantrip Upgrade. The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+        },
+        {
+          "id": "s63df2ae1",
+          "name": "Illusory Script",
+          "level": 1,
+          "act": "1M",
+          "range": "Touch",
+          "conc": false,
+          "ritual": true,
+          "hit": false,
+          "save": null,
+          "dmg": [],
+          "desc": "You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know. If the spell is dispelled, the original script and the illusion both disappear. A creature that has Truesight can read the hidden message."
+        },
+        {
+          "id": "sdf8cb93b",
+          "name": "Speak with Animals",
+          "level": 1,
+          "act": "A",
+          "range": "Self",
+          "conc": false,
+          "ritual": true,
+          "hit": false,
+          "save": null,
+          "dmg": [],
+          "desc": "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them. Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+        }
+      ],
+      "features": [
+        {
+          "id": "f65481e5c",
+          "name": "Walking Speed: 35 ft.",
+          "uses": null,
+          "desc": ""
+        },
+        {
+          "id": "f8b6da5b1",
+          "name": "Giant Ancestry",
+          "uses": null,
+          "desc": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n• Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n• Fire's Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n• Frost's Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n• Hill's Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n• Stone's Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n• Storm's Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature."
+        },
+        {
+          "id": "fe07dfeb8",
+          "name": "Large Form",
+          "uses": null,
+          "desc": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest."
+        },
+        {
+          "id": "f6c4f2cc5",
+          "name": "Powerful Build",
+          "uses": null,
+          "desc": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity."
+        },
+        {
+          "id": "f3dd4f2b7",
+          "name": "Eldritch Invocations",
+          "uses": null,
+          "desc": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\nPrerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\n\nReplacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\n\nYou can't pick the same invocation more than once unless its description says otherwise."
+        },
+        {
+          "id": "fcefa2fd6",
+          "name": "Pact Magic",
+          "uses": null,
+          "desc": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.\n\nCantrips. You know two Warlock cantrips of your choice. Eldritch Blast and Prestidigitation are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.\n\nWhen you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.\n\nSpell Slots. The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.\n\nFor example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Charm Person, you must spend one of those slots, and you cast it as a level 3 spell.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. Charm Person and Hex are recommended.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.\n\nIf another Warlock feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.\n\nChanging Your Prepared Spells. Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.\n\nSpellcasting Ability. Charisma is the spellcasting ability for your Warlock spells.\n\nSpellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells."
+        },
+        {
+          "id": "fb90c1e9f",
+          "name": "Giant Ancestry: Frost's Chill (Frost Giant)",
+          "uses": null,
+          "desc": "Chosen in Character Forge."
+        },
+        {
+          "id": "fe8817758",
+          "name": "Magic Initiate (Wizard)",
+          "uses": null,
+          "desc": ""
+        },
+        {
+          "id": "f1a478ab8",
+          "name": "Beginner Guide (Seven Trials)",
+          "uses": null,
+          "desc": "Hero code: 36775609\n\nSEVEN TRIALS - beginner tips for Demo Hero\n\n1. [skipped] You can concentrate on only one spell at a time; casting a second Concentration spell ends the first. Pick your Concentration spell carefully.\n2. [skipped] Without Darkvision you cannot see in darkness: attacks against you gain Advantage and your attacks have Disadvantage. Carry torches and let a Darkvision ally scout ahead.\n3. [skipped] Taking damage forces a Constitution save (DC 10 or half the damage, whichever is higher) to keep Concentration. Staying out of reach protects your spells.\n4. [skipped] Powerful Build: Advantage on checks to escape a Grapple, and you count as one size larger for carrying capacity.\n5. [skipped] Pact Magic slots come back on a Short Rest. Ask the party for a short break after a fight so you can recover them.\n6. [skipped] Leaving an enemy's reach provokes an Opportunity Attack. Take the Disengage action first if you need to retreat safely.\n7. [skipped] Half Cover gives +2 AC and three-quarters Cover +5 AC. On a battle map, rocks, walls and trees are your friends."
+        }
+      ],
+      "proficiencies": {
+        "armor": [
+          "Light armor"
+        ],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": [
+          "Calligrapher's Supplies"
+        ],
+        "languages": [
+          "Common",
+          "Goblin",
+          "Gnomish"
+        ]
+      },
+      "inventory": {
+        "coins": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 23,
+          "pp": 0
+        },
+        "categories": [
+          {
+            "id": "equipment",
+            "name": "Equipment",
+            "collapsed": false
+          },
+          {
+            "id": "backpack",
+            "name": "Backpack",
+            "collapsed": false
+          }
+        ],
+        "items": [
+          {
+            "id": "i7c91dd94",
+            "qty": 1,
+            "name": "Leather Armor",
+            "wt": 10,
+            "cost": 10,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "Light armor, AC 11 + Dex modifier.",
+            "cat": "equipment"
+          },
+          {
+            "id": "iceda750e",
+            "qty": 1,
+            "name": "Sickle",
+            "wt": 2,
+            "cost": 1,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "Simple melee weapon, 1d4 slashing. Properties: Light. Mastery: Nick.",
+            "cat": "equipment"
+          },
+          {
+            "id": "i6c89f634",
+            "qty": 2,
+            "name": "Daggers",
+            "wt": 1,
+            "cost": 2,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "Simple melee weapon, 1d4 piercing. Properties: Finesse, Light, Thrown (Range 20/60). Mastery: Nick.",
+            "cat": "equipment"
+          },
+          {
+            "id": "i993c8c33",
+            "qty": 1,
+            "name": "Arcane Focus (orb)",
+            "wt": 0,
+            "cost": 0,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "",
+            "cat": "equipment"
+          },
+          {
+            "id": "i8f482489",
+            "qty": 1,
+            "name": "Book (occult lore)",
+            "wt": 5,
+            "cost": 25,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.",
+            "cat": "equipment"
+          },
+          {
+            "id": "i05fa580d",
+            "qty": 1,
+            "name": "Scholar's Pack",
+            "wt": 22,
+            "cost": 40,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.",
+            "cat": "equipment"
+          },
+          {
+            "id": "i3a638fae",
+            "qty": 1,
+            "name": "Quarterstaff",
+            "wt": 4,
+            "cost": 0.2,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "Simple melee weapon, 1d6 bludgeoning. Properties: Versatile (1d8). Mastery: Topple.",
+            "cat": "equipment"
+          },
+          {
+            "id": "i62ccd31a",
+            "qty": 1,
+            "name": "Calligrapher's Supplies",
+            "wt": 5,
+            "cost": 10,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "Ability: Dexterity. Utilize: Write text with impressive flourishes that guard against forgery (DC 15). Craft: Ink, Spell Scroll",
+            "cat": "equipment"
+          },
+          {
+            "id": "ie7566a37",
+            "qty": 1,
+            "name": "Book (history)",
+            "wt": 5,
+            "cost": 25,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.",
+            "cat": "equipment"
+          },
+          {
+            "id": "id25b3a20",
+            "qty": 8,
+            "name": "Parchment",
+            "wt": 0,
+            "cost": 0.1,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "One sheet of Parchment can hold about 250 handwritten words.",
+            "cat": "equipment"
+          },
+          {
+            "id": "idf24b5ed",
+            "qty": 1,
+            "name": "Robe",
+            "wt": 4,
+            "cost": 1,
+            "rarity": "",
+            "attune": false,
+            "attuned": false,
+            "desc": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.",
+            "cat": "equipment"
+          }
+        ]
+      },
+      "background": {
+        "name": "Sage",
+        "feature": {
+          "name": "",
+          "desc": ""
+        }
+      },
+      "notes": "Hero code: 36775609\n\nSEVEN TRIALS - beginner tips for Demo Hero\n\n1. [skipped] You can concentrate on only one spell at a time; casting a second Concentration spell ends the first. Pick your Concentration spell carefully.\n2. [skipped] Without Darkvision you cannot see in darkness: attacks against you gain Advantage and your attacks have Disadvantage. Carry torches and let a Darkvision ally scout ahead.\n3. [skipped] Taking damage forces a Constitution save (DC 10 or half the damage, whichever is higher) to keep Concentration. Staying out of reach protects your spells.\n4. [skipped] Powerful Build: Advantage on checks to escape a Grapple, and you count as one size larger for carrying capacity.\n5. [skipped] Pact Magic slots come back on a Short Rest. Ask the party for a short break after a fight so you can recover them.\n6. [skipped] Leaving an enemy's reach provokes an Opportunity Attack. Take the Disengage action first if you need to retreat safely.\n7. [skipped] Half Cover gives +2 AC and three-quarters Cover +5 AC. On a battle map, rocks, walls and trees are your friends.",
+      "color": "#3d8bfd"
+    }
+  ]
+}

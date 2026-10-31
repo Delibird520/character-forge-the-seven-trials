@@ -1,0 +1,3978 @@
+{
+  "source": "SRD 5.2 (Wizards of the Coast, CC-BY-4.0), via the Open5e/Valdur's Heroic Codex setup data",
+  "languages": [
+    "Draconic",
+    "Dwarvish",
+    "Elvish",
+    "Giant",
+    "Gnomish",
+    "Goblin",
+    "Halfling",
+    "Orc"
+  ],
+  "tools": [
+    "Alchemist's supplies",
+    "Brewer's supplies",
+    "Calligrapher's supplies",
+    "Carpenter's tools",
+    "Cartographer's tools",
+    "Cobbler's tools",
+    "Cook's utensils",
+    "Glassblower's tools",
+    "Jeweler's tools",
+    "Leatherworker's tools",
+    "Mason's tools",
+    "Painter's supplies",
+    "Potter's tools",
+    "Smith's tools",
+    "Tinker's tools",
+    "Weaver's tools",
+    "Woodcarver's tools",
+    "Bagpipes",
+    "Drum",
+    "Dulcimer",
+    "Flute",
+    "Horn",
+    "Lute",
+    "Lyre",
+    "Pan flute",
+    "Shawm",
+    "Viol",
+    "Dice set",
+    "Dragonchess set",
+    "Playing card set",
+    "Three-Dragon Ante set",
+    "Disguise kit",
+    "Forgery kit",
+    "Herbalism kit",
+    "Navigator's tools",
+    "Poisoner's kit",
+    "Thieves' tools",
+    "Vehicles (land)",
+    "Vehicles (water)"
+  ],
+  "species": [
+    {
+      "name": "Dragonborn",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [
+        {
+          "id": "draconic-ancestry",
+          "label": "Draconic Ancestry",
+          "kind": "option",
+          "count": 1,
+          "from": "options",
+          "options": [
+            {
+              "name": "Black dragon",
+              "desc": "Acid breath weapon and resistance to acid damage.",
+              "spells": []
+            },
+            {
+              "name": "Blue dragon",
+              "desc": "Lightning breath weapon and resistance to lightning damage.",
+              "spells": []
+            },
+            {
+              "name": "Brass dragon",
+              "desc": "Fire breath weapon and resistance to fire damage.",
+              "spells": []
+            },
+            {
+              "name": "Bronze dragon",
+              "desc": "Lightning breath weapon and resistance to lightning damage.",
+              "spells": []
+            },
+            {
+              "name": "Copper dragon",
+              "desc": "Acid breath weapon and resistance to acid damage.",
+              "spells": []
+            },
+            {
+              "name": "Gold dragon",
+              "desc": "Fire breath weapon and resistance to fire damage.",
+              "spells": []
+            },
+            {
+              "name": "Green dragon",
+              "desc": "Poison breath weapon and resistance to poison damage.",
+              "spells": []
+            },
+            {
+              "name": "Red dragon",
+              "desc": "Fire breath weapon and resistance to fire damage.",
+              "spells": []
+            },
+            {
+              "name": "Silver dragon",
+              "desc": "Cold breath weapon and resistance to cold damage.",
+              "spells": []
+            },
+            {
+              "name": "White dragon",
+              "desc": "Cold breath weapon and resistance to cold damage.",
+              "spells": []
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Draconic Ancestry",
+          "desc": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\nTable: Draconic Ancestors\n\nDragon · Damage Type\nBlack · Acid\nBlue · Lightning\nBrass · Fire\nBronze · Lightning\nCopper · Acid\nGold · Fire\nGreen · Poison\nRed · Fire\nSilver · Cold\nWhite · Cold"
+        },
+        {
+          "name": "Breath Weapon",
+          "desc": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        },
+        {
+          "name": "Damage Resistance",
+          "desc": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+        },
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 60 feet"
+        },
+        {
+          "name": "Draconic Flight",
+          "desc": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf",
+      "grants": {
+        "speed": 30,
+        "hpPerLevel": 1
+      },
+      "choices": [],
+      "features": [
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 120 feet."
+        },
+        {
+          "name": "Dwarven Resilience",
+          "desc": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+        },
+        {
+          "name": "Dwarven Toughness",
+          "desc": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+        },
+        {
+          "name": "Stonecunning",
+          "desc": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        }
+      ]
+    },
+    {
+      "name": "Elf",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [
+        {
+          "id": "species-keen-senses-skill",
+          "label": "Keen Senses",
+          "kind": "skill",
+          "count": 1,
+          "from": [
+            "Insight",
+            "Perception",
+            "Survival"
+          ]
+        },
+        {
+          "id": "elven-lineage",
+          "label": "Elven Lineage",
+          "kind": "option",
+          "count": 1,
+          "from": "options",
+          "options": [
+            {
+              "name": "Drow",
+              "desc": "Darkvision 120 feet and the Dancing Lights cantrip; Faerie Fire at level 3 and Darkness at level 5.",
+              "spells": [
+                "Dancing Lights"
+              ]
+            },
+            {
+              "name": "High Elf",
+              "desc": "The Prestidigitation cantrip, swappable for another Wizard cantrip on a Long Rest; Detect Magic at level 3 and Misty Step at level 5.",
+              "spells": [
+                "Prestidigitation"
+              ]
+            },
+            {
+              "name": "Wood Elf",
+              "desc": "Speed 35 feet and the Druidcraft cantrip; Longstrider at level 3 and Pass without Trace at level 5.",
+              "spells": [
+                "Druidcraft"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven-lineage-casting",
+          "label": "Elven Lineage: spellcasting ability",
+          "kind": "casting",
+          "count": 1,
+          "from": [
+            "int",
+            "wis",
+            "cha"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Elven Lineage",
+          "desc": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nTable: Elven Lineages\n\nLineage · Level 1 · Level 3 · Level 5\nDrow · The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. · Faerie Fire · Darkness\nHigh Elf · You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. · Detect Magic · Misty Step\nWood Elf · Your Speed increases to 35 feet. You also know the Druidcraft cantrip. · Longstrider · Pass without Trace\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+        },
+        {
+          "name": "Fey Ancestry",
+          "desc": "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+        },
+        {
+          "name": "Keen Senses",
+          "desc": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        {
+          "name": "Trance",
+          "desc": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+        }
+      ]
+    },
+    {
+      "name": "Gnome",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [
+        {
+          "id": "gnomish-lineage",
+          "label": "Gnomish Lineage",
+          "kind": "option",
+          "count": 1,
+          "from": "options",
+          "options": [
+            {
+              "name": "Forest Gnome",
+              "desc": "The Minor Illusion cantrip, and Speak with Animals prepared, castable without a slot a number of times equal to your Proficiency Bonus per Long Rest.",
+              "spells": [
+                "Minor Illusion",
+                "Speak with Animals"
+              ]
+            },
+            {
+              "name": "Rock Gnome",
+              "desc": "The Mending and Prestidigitation cantrips, and you can make Tiny clockwork devices with Prestidigitation.",
+              "spells": [
+                "Mending",
+                "Prestidigitation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gnomish-lineage-casting",
+          "label": "Gnomish Lineage: spellcasting ability",
+          "kind": "casting",
+          "count": 1,
+          "from": [
+            "int",
+            "wis",
+            "cha"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Gnomish Cunning",
+          "desc": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+        },
+        {
+          "name": "Gnomish Lineage",
+          "desc": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):\n\nForest Gnome. You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.\n\nRock Gnome. You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action."
+        }
+      ]
+    },
+    {
+      "name": "Goliath",
+      "grants": {
+        "speed": 35
+      },
+      "choices": [
+        {
+          "id": "giant-ancestry",
+          "label": "Giant Ancestry",
+          "kind": "option",
+          "count": 1,
+          "from": "options",
+          "options": [
+            {
+              "name": "Cloud's Jaunt (Cloud Giant)",
+              "desc": "As a Bonus Action, teleport up to 30 feet to an unoccupied space you can see.",
+              "spells": []
+            },
+            {
+              "name": "Fire's Burn (Fire Giant)",
+              "desc": "When you hit with an attack roll and deal damage, also deal 1d10 Fire damage.",
+              "spells": []
+            },
+            {
+              "name": "Frost's Chill (Frost Giant)",
+              "desc": "When you hit with an attack roll and deal damage, also deal 1d6 Cold damage and reduce the target's Speed by 10 feet.",
+              "spells": []
+            },
+            {
+              "name": "Hill's Tumble (Hill Giant)",
+              "desc": "When you hit a Large or smaller creature with an attack roll and deal damage, you can give it the Prone condition.",
+              "spells": []
+            },
+            {
+              "name": "Stone's Endurance (Stone Giant)",
+              "desc": "As a Reaction when you take damage, roll 1d12, add your Constitution modifier and reduce the damage by that total.",
+              "spells": []
+            },
+            {
+              "name": "Storm's Thunder (Storm Giant)",
+              "desc": "As a Reaction when a creature within 60 feet damages you, deal it 1d8 Thunder damage.",
+              "spells": []
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Giant Ancestry",
+          "desc": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n• Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n• Fire's Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n• Frost's Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n• Hill's Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n• Stone's Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n• Storm's Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature."
+        },
+        {
+          "name": "Large Form",
+          "desc": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest."
+        },
+        {
+          "name": "Powerful Build",
+          "desc": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity."
+        }
+      ]
+    },
+    {
+      "name": "Halfling",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [],
+      "features": [
+        {
+          "name": "Brave",
+          "desc": "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "desc": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+        },
+        {
+          "name": "Luck",
+          "desc": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+        },
+        {
+          "name": "Naturally Stealthy",
+          "desc": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+        }
+      ]
+    },
+    {
+      "name": "Human",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [
+        {
+          "id": "species-skillful-skills",
+          "label": "Skillful",
+          "kind": "skill",
+          "count": 1,
+          "from": "any"
+        },
+        {
+          "id": "versatile-feat",
+          "label": "Versatile: Origin feat",
+          "kind": "feat",
+          "count": 1,
+          "from": [
+            "Alert",
+            "Magic Initiate",
+            "Savage Attacker",
+            "Skilled"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Resourceful",
+          "desc": "You gain Heroic Inspiration whenever you finish a Long Rest."
+        },
+        {
+          "name": "Skillful",
+          "desc": "You gain proficiency in one skill of your choice."
+        },
+        {
+          "name": "Versatile",
+          "desc": "You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended."
+        }
+      ]
+    },
+    {
+      "name": "Orc",
+      "grants": {
+        "speed": 30
+      },
+      "choices": [],
+      "features": [
+        {
+          "name": "Adrenaline Rush",
+          "desc": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest."
+        },
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 120 feet."
+        },
+        {
+          "name": "Relentless Endurance",
+          "desc": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+        }
+      ]
+    },
+    {
+      "name": "Tiefling",
+      "grants": {
+        "speed": 30,
+        "spells": [
+          [
+            "Thaumaturgy",
+            1
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "fiendish-legacy",
+          "label": "Fiendish Legacy",
+          "kind": "option",
+          "count": 1,
+          "from": "options",
+          "options": [
+            {
+              "name": "Abyssal",
+              "desc": "Resistance to Poison damage and the Poison Spray cantrip; Ray of Sickness at level 3 and Hold Person at level 5.",
+              "spells": [
+                "Poison Spray"
+              ]
+            },
+            {
+              "name": "Chthonic",
+              "desc": "Resistance to Necrotic damage and the Chill Touch cantrip; False Life at level 3 and Ray of Enfeeblement at level 5.",
+              "spells": [
+                "Chill Touch"
+              ]
+            },
+            {
+              "name": "Infernal",
+              "desc": "Resistance to Fire damage and the Fire Bolt cantrip; Hellish Rebuke at level 3 and Darkness at level 5.",
+              "spells": [
+                "Fire Bolt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fiendish-legacy-casting",
+          "label": "Fiendish Legacy: spellcasting ability",
+          "kind": "casting",
+          "count": 1,
+          "from": [
+            "int",
+            "wis",
+            "cha"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Darkvision",
+          "desc": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Fiendish Legacy",
+          "desc": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\nTable: Fiendish Legacies\n\nLegacy · Level 1 · Level 3 · Level 5\nAbyssal · You have Resistance to Poison damage. You also know the Poison Spray cantrip. · Ray of Sickness · Hold Person\nChthonic · You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. · False Life · Ray of Enfeeblement\nInfernal · You have Resistance to Fire damage. You also know the Fire Bolt cantrip. · Hellish Rebuke · Darkness"
+        },
+        {
+          "name": "Otherworldly Presence",
+          "desc": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "name": "Barbarian",
+      "hitDie": 12,
+      "caster": null,
+      "castingAbility": null,
+      "grants": {
+        "saves": [
+          "str",
+          "con"
+        ],
+        "armor": [
+          "Light armor",
+          "Medium armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons"
+        ],
+        "tools": [],
+        "unarmored": {
+          "base": 10,
+          "add": [
+            "dex",
+            "con"
+          ],
+          "shield": true
+        }
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Animal Handling",
+            "Athletics",
+            "Intimidation",
+            "Nature",
+            "Perception",
+            "Survival"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Rage",
+          "desc": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below. Damage Resistance. You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\nRage Damage. When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\nStrength Advantage. You have Advantage on Strength checks and Strength saving throws.\n\nNo Concentration or Spells. You can't maintain Concentration, and you can't cast spells.\n\nDuration. The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n• Make an attack roll against an enemy.\n• Force an enemy to make a saving throw.\n• Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes."
+        },
+        {
+          "name": "Unarmored Defense",
+          "desc": "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
+        },
+        {
+          "name": "Weapon Mastery",
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Greataxe",
+              "qty": 1,
+              "srd": "Greataxe"
+            },
+            {
+              "name": "Handaxes",
+              "qty": 4,
+              "srd": "Handaxe"
+            },
+            {
+              "name": "Explorer's Pack",
+              "qty": 1,
+              "srd": "Explorer's Pack"
+            }
+          ],
+          "gp": 15
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 75
+        }
+      ]
+    },
+    {
+      "name": "Bard",
+      "hitDie": 8,
+      "caster": "full",
+      "castingAbility": "cha",
+      "grants": {
+        "saves": [
+          "dex",
+          "cha"
+        ],
+        "armor": [
+          "Light armor"
+        ],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 3,
+          "from": "any"
+        },
+        {
+          "id": "class-tools",
+          "label": "Tool proficiency",
+          "kind": "tool",
+          "count": 3,
+          "from": [
+            "Bagpipes",
+            "Drum",
+            "Dulcimer",
+            "Flute",
+            "Horn",
+            "Lute",
+            "Lyre",
+            "Pan flute",
+            "Shawm",
+            "Viol"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Bardic Inspiration",
+          "desc": "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.\n\nUsing Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n\nOnce within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.\n\nNumber of Uses. You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nAt Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "You have learned to cast spells through your bardic arts. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class's description.\n\nCantrips. You know two cantrips of your choice from the Bard spell list. Dancing Lights and Vicious Mockery are recommended.\n\nWhenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.\n\nWhen you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the Bard Features table.\n\nSpell Slots. The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. Charm Person, Color Spray, Dissonant Whispers, and Healing Word are recommended.\n\nThe number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.\n\nChanging Your Prepared Spells. Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.\n\nSpellcasting Ability. Charisma is your spellcasting ability for your Bard spells.\n\nSpellcasting Focus. You can use a Musical Instrument as a Spellcasting Focus for your Bard spells."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Leather Armor",
+              "qty": 1,
+              "srd": "Leather Armor"
+            },
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Musical Instrument of your choice",
+              "qty": 1,
+              "srd": null
+            },
+            {
+              "name": "Entertainer's Pack",
+              "qty": 1,
+              "srd": "Entertainer's Pack"
+            }
+          ],
+          "gp": 19
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 90
+        }
+      ]
+    },
+    {
+      "name": "Cleric",
+      "hitDie": 8,
+      "caster": "full",
+      "castingAbility": "wis",
+      "grants": {
+        "saves": [
+          "wis",
+          "cha"
+        ],
+        "armor": [
+          "Light armor",
+          "Medium armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "History",
+            "Insight",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Divine Order",
+          "desc": "You have dedicated yourself to one of the following sacred roles of your choice.\n\nProtector. Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.\n\nThaumaturge. You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1)."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.\n\nCantrips. You know three cantrips of your choice from the Cleric spell list. Guidance, Sacred Flame, and Thaumaturgy are recommended.\n\nWhenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.\n\nWhen you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the Cleric Features table.\n\nSpell Slots. The Cleric Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list. Bless, Cure Wounds, Guiding Bolt, and Shield of Faith are recommended.\n\nThe number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Cleric feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Cleric spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Cleric spells for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Cleric spells.\n\nSpellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Chain Shirt",
+              "qty": 1,
+              "srd": "Chain Shirt"
+            },
+            {
+              "name": "Shield",
+              "qty": 1,
+              "srd": "Shield"
+            },
+            {
+              "name": "Mace",
+              "qty": 1,
+              "srd": "Mace"
+            },
+            {
+              "name": "Holy Symbol",
+              "qty": 1,
+              "srd": "Holy Symbol, Amulet"
+            },
+            {
+              "name": "Priest's Pack",
+              "qty": 1,
+              "srd": "Priest's Pack"
+            }
+          ],
+          "gp": 7
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 110
+        }
+      ]
+    },
+    {
+      "name": "Druid",
+      "hitDie": 8,
+      "caster": "full",
+      "castingAbility": "wis",
+      "grants": {
+        "saves": [
+          "int",
+          "wis"
+        ],
+        "armor": [
+          "Light armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": [
+          "Herbalism Kit"
+        ],
+        "languages": [
+          "Druidic"
+        ]
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Animal Handling",
+            "Arcana",
+            "Insight",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Religion",
+            "Survival"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Druidic",
+          "desc": "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
+        },
+        {
+          "name": "Primal Order",
+          "desc": "You have dedicated yourself to one of the following sacred roles of your choice.\n\nMagician. You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).\n\nWarden. Trained for battle, you gain proficiency with Martial weapons and training with Medium armor."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "You have learned to cast spells through studying the mystical forces of nature. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description.\n\nCantrips. You know two cantrips of your choice from the Druid spell list. Druidcraft and Produce Flame are recommended.\n\nWhenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.\n\nWhen you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.\n\nSpell Slots. The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Animal Friendship, Cure Wounds, Faerie Fire, and Thunderwave are recommended.\n\nThe number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Druid feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Druid spells.\n\nSpellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Druid spells."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Leather Armor",
+              "qty": 1,
+              "srd": "Leather Armor"
+            },
+            {
+              "name": "Shield",
+              "qty": 1,
+              "srd": "Shield"
+            },
+            {
+              "name": "Sickle",
+              "qty": 1,
+              "srd": "Sickle"
+            },
+            {
+              "name": "Druidic Focus (Quarterstaff)",
+              "qty": 1,
+              "srd": "Quarterstaff"
+            },
+            {
+              "name": "Explorer's Pack",
+              "qty": 1,
+              "srd": "Explorer's Pack"
+            },
+            {
+              "name": "Herbalism Kit",
+              "qty": 1,
+              "srd": "Herbalism Kit"
+            }
+          ],
+          "gp": 9
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Fighter",
+      "hitDie": 10,
+      "caster": null,
+      "castingAbility": null,
+      "grants": {
+        "saves": [
+          "str",
+          "con"
+        ],
+        "armor": [
+          "Light armor",
+          "Medium armor",
+          "Heavy armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
+            "Insight",
+            "Intimidation",
+            "Persuasion",
+            "Perception",
+            "Survival"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Fighting Style",
+          "desc": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat."
+        },
+        {
+          "name": "Second Wind",
+          "desc": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table."
+        },
+        {
+          "name": "Weapon Mastery",
+          "desc": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Chain Mail",
+              "qty": 1,
+              "srd": "Chain Mail"
+            },
+            {
+              "name": "Greatsword",
+              "qty": 1,
+              "srd": "Greatsword"
+            },
+            {
+              "name": "Flail",
+              "qty": 1,
+              "srd": "Flail"
+            },
+            {
+              "name": "Javelins",
+              "qty": 8,
+              "srd": "Javelin"
+            },
+            {
+              "name": "Dungeoneer's Pack",
+              "qty": 1,
+              "srd": "Dungeoneer's Pack"
+            }
+          ],
+          "gp": 4
+        },
+        {
+          "label": "B",
+          "items": [
+            {
+              "name": "Studded Leather Armor",
+              "qty": 1,
+              "srd": "Studded Leather Armor"
+            },
+            {
+              "name": "Scimitar",
+              "qty": 1,
+              "srd": "Scimitar"
+            },
+            {
+              "name": "Shortsword",
+              "qty": 1,
+              "srd": "Shortsword"
+            },
+            {
+              "name": "Longbow",
+              "qty": 1,
+              "srd": "Longbow"
+            },
+            {
+              "name": "Arrows (20)",
+              "qty": 1,
+              "srd": "Arrows (20)"
+            },
+            {
+              "name": "Quiver",
+              "qty": 1,
+              "srd": "Quiver"
+            },
+            {
+              "name": "Dungeoneer's Pack",
+              "qty": 1,
+              "srd": "Dungeoneer's Pack"
+            }
+          ],
+          "gp": 11
+        },
+        {
+          "label": "C",
+          "items": [],
+          "gp": 155
+        }
+      ]
+    },
+    {
+      "name": "Monk",
+      "hitDie": 8,
+      "caster": null,
+      "castingAbility": null,
+      "grants": {
+        "saves": [
+          "str",
+          "dex"
+        ],
+        "armor": [],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons that have the Light property"
+        ],
+        "tools": [],
+        "unarmored": {
+          "base": 10,
+          "add": [
+            "dex",
+            "wis"
+          ],
+          "shield": false
+        }
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Acrobatics",
+            "Athletics",
+            "History",
+            "Insight",
+            "Religion",
+            "Stealth"
+          ]
+        },
+        {
+          "id": "class-tools",
+          "label": "Tool proficiency",
+          "kind": "tool",
+          "count": 1,
+          "from": [
+            "Bagpipes",
+            "Drum",
+            "Dulcimer",
+            "Flute",
+            "Horn",
+            "Lute",
+            "Lyre",
+            "Pan flute",
+            "Shawm",
+            "Viol",
+            "Alchemist's supplies",
+            "Brewer's supplies",
+            "Calligrapher's supplies",
+            "Carpenter's tools",
+            "Cartographer's tools",
+            "Cobbler's tools",
+            "Cook's utensils",
+            "Glassblower's tools",
+            "Jeweler's tools",
+            "Leatherworker's tools",
+            "Mason's tools",
+            "Painter's supplies",
+            "Potter's tools",
+            "Smith's tools",
+            "Tinker's tools",
+            "Weaver's tools",
+            "Woodcarver's tools"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Martial Arts",
+          "desc": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n• Simple Melee weapons\n• Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\nBonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.\n\nMartial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\nDexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+        },
+        {
+          "name": "Unarmored Defense",
+          "desc": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Spear",
+              "qty": 1,
+              "srd": "Spear"
+            },
+            {
+              "name": "Daggers",
+              "qty": 5,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Artisan's Tools or Musical Instrument chosen for the tool proficiency above",
+              "qty": 1,
+              "srd": null
+            },
+            {
+              "name": "Explorer's Pack",
+              "qty": 1,
+              "srd": "Explorer's Pack"
+            }
+          ],
+          "gp": 11
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Paladin",
+      "hitDie": 10,
+      "caster": "half2024",
+      "castingAbility": "cha",
+      "grants": {
+        "saves": [
+          "wis",
+          "cha"
+        ],
+        "armor": [
+          "Light armor",
+          "Medium armor",
+          "Heavy armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Athletics",
+            "Insight",
+            "Intimidation",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Lay On Hands",
+          "desc": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.\n\nSpell Slots. The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. Heroism and Searing Smite are recommended.\n\nThe number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.\n\nIf another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.\n\nSpellcasting Ability. Charisma is your spellcasting ability for your Paladin spells.\n\nSpellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells."
+        },
+        {
+          "name": "Weapon Mastery",
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Chain Mail",
+              "qty": 1,
+              "srd": "Chain Mail"
+            },
+            {
+              "name": "Shield",
+              "qty": 1,
+              "srd": "Shield"
+            },
+            {
+              "name": "Longsword",
+              "qty": 1,
+              "srd": "Longsword"
+            },
+            {
+              "name": "Javelins",
+              "qty": 6,
+              "srd": "Javelin"
+            },
+            {
+              "name": "Holy Symbol",
+              "qty": 1,
+              "srd": "Holy Symbol, Amulet"
+            },
+            {
+              "name": "Priest's Pack",
+              "qty": 1,
+              "srd": "Priest's Pack"
+            }
+          ],
+          "gp": 9
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 150
+        }
+      ]
+    },
+    {
+      "name": "Ranger",
+      "hitDie": 10,
+      "caster": "half2024",
+      "castingAbility": "wis",
+      "grants": {
+        "saves": [
+          "str",
+          "dex"
+        ],
+        "armor": [
+          "Light armor",
+          "Medium armor",
+          "Shields"
+        ],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 3,
+          "from": [
+            "Animal Handling",
+            "Athletics",
+            "Insight",
+            "Investigation",
+            "Nature",
+            "Perception",
+            "Stealth",
+            "Survival"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Favored Enemy",
+          "desc": "You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "You have learned to channel the magical essence of nature to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.\n\nSpell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells.\n\nSpellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells."
+        },
+        {
+          "name": "Weapon Mastery",
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Studded Leather Armor",
+              "qty": 1,
+              "srd": "Studded Leather Armor"
+            },
+            {
+              "name": "Scimitar",
+              "qty": 1,
+              "srd": "Scimitar"
+            },
+            {
+              "name": "Shortsword",
+              "qty": 1,
+              "srd": "Shortsword"
+            },
+            {
+              "name": "Longbow",
+              "qty": 1,
+              "srd": "Longbow"
+            },
+            {
+              "name": "Arrows (20)",
+              "qty": 1,
+              "srd": "Arrows (20)"
+            },
+            {
+              "name": "Quiver",
+              "qty": 1,
+              "srd": "Quiver"
+            },
+            {
+              "name": "Druidic Focus (sprig of mistletoe)",
+              "qty": 1,
+              "srd": "Druidic Focus, Sprig of Mistletoe"
+            },
+            {
+              "name": "Explorer's Pack",
+              "qty": 1,
+              "srd": "Explorer's Pack"
+            }
+          ],
+          "gp": 7
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 150
+        }
+      ]
+    },
+    {
+      "name": "Rogue",
+      "hitDie": 8,
+      "caster": null,
+      "castingAbility": null,
+      "grants": {
+        "saves": [
+          "dex",
+          "int"
+        ],
+        "armor": [
+          "Light armor"
+        ],
+        "weapons": [
+          "Simple weapons",
+          "Martial weapons that have the Finesse or Light property"
+        ],
+        "tools": [
+          "Thieves' Tools"
+        ],
+        "languages": [
+          "Thieves' Cant"
+        ]
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 4,
+          "from": [
+            "Acrobatics",
+            "Athletics",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Perception",
+            "Persuasion",
+            "Sleight of Hand",
+            "Stealth"
+          ]
+        },
+        {
+          "id": "expertise-1",
+          "label": "Expertise (level 1)",
+          "kind": "expertise",
+          "count": 2,
+          "from": "proficient",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "name": "Expertise",
+          "desc": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice."
+        },
+        {
+          "name": "Sneak Attack",
+          "desc": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+        },
+        {
+          "name": "Thieves' Cant",
+          "desc": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\""
+        },
+        {
+          "name": "Weapon Mastery",
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Leather Armor",
+              "qty": 1,
+              "srd": "Leather Armor"
+            },
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Shortsword",
+              "qty": 1,
+              "srd": "Shortsword"
+            },
+            {
+              "name": "Shortbow",
+              "qty": 1,
+              "srd": "Shortbow"
+            },
+            {
+              "name": "Arrows (20)",
+              "qty": 1,
+              "srd": "Arrows (20)"
+            },
+            {
+              "name": "Quiver",
+              "qty": 1,
+              "srd": "Quiver"
+            },
+            {
+              "name": "Thieves' Tools",
+              "qty": 1,
+              "srd": "Thieves' Tools"
+            },
+            {
+              "name": "Burglar's Pack",
+              "qty": 1,
+              "srd": "Burglar's Pack"
+            }
+          ],
+          "gp": 8
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 100
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "hitDie": 6,
+      "caster": "full",
+      "castingAbility": "cha",
+      "grants": {
+        "saves": [
+          "con",
+          "cha"
+        ],
+        "armor": [],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Arcana",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Persuasion",
+            "Religion"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Innate Sorcery",
+          "desc": "An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:\n\n• The spell save DC of your Sorcerer spells increases by 1.\n• You have Advantage on the attack rolls of Sorcerer spells you cast.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a Long Rest."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "Drawing from your innate magic, you can cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class's description.\n\nCantrips. You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.\n\nWhen you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.\n\nSpell Slots. The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. Burning Hands and Detect Magic are recommended.\n\nThe number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.\n\nIf another Sorcerer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.\n\nChanging Your Prepared Spells. Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.\n\nSpellcasting Ability. Charisma is your spellcasting ability for your Sorcerer spells.\n\nSpellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Spear",
+              "qty": 1,
+              "srd": "Spear"
+            },
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Arcane Focus (crystal)",
+              "qty": 1,
+              "srd": null
+            },
+            {
+              "name": "Dungeoneer's Pack",
+              "qty": 1,
+              "srd": "Dungeoneer's Pack"
+            }
+          ],
+          "gp": 28
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Warlock",
+      "hitDie": 8,
+      "caster": "pact",
+      "castingAbility": "cha",
+      "grants": {
+        "saves": [
+          "wis",
+          "cha"
+        ],
+        "armor": [
+          "Light armor"
+        ],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Arcana",
+            "Deception",
+            "History",
+            "Intimidation",
+            "Investigation",
+            "Nature",
+            "Religion"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Eldritch Invocations",
+          "desc": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\nPrerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\n\nReplacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\n\nYou can't pick the same invocation more than once unless its description says otherwise."
+        },
+        {
+          "name": "Pact Magic",
+          "desc": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.\n\nCantrips. You know two Warlock cantrips of your choice. Eldritch Blast and Prestidigitation are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.\n\nWhen you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.\n\nSpell Slots. The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.\n\nFor example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Charm Person, you must spend one of those slots, and you cast it as a level 3 spell.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. Charm Person and Hex are recommended.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.\n\nIf another Warlock feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.\n\nChanging Your Prepared Spells. Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.\n\nSpellcasting Ability. Charisma is the spellcasting ability for your Warlock spells.\n\nSpellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Leather Armor",
+              "qty": 1,
+              "srd": "Leather Armor"
+            },
+            {
+              "name": "Sickle",
+              "qty": 1,
+              "srd": "Sickle"
+            },
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Arcane Focus (orb)",
+              "qty": 1,
+              "srd": null
+            },
+            {
+              "name": "Book (occult lore)",
+              "qty": 1,
+              "srd": "Book"
+            },
+            {
+              "name": "Scholar's Pack",
+              "qty": 1,
+              "srd": "Scholar's Pack"
+            }
+          ],
+          "gp": 15
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 100
+        }
+      ]
+    },
+    {
+      "name": "Wizard",
+      "hitDie": 6,
+      "caster": "full",
+      "castingAbility": "int",
+      "grants": {
+        "saves": [
+          "int",
+          "wis"
+        ],
+        "armor": [],
+        "weapons": [
+          "Simple weapons"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "class-skills",
+          "label": "Skill proficiencies",
+          "kind": "skill",
+          "count": 2,
+          "from": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Nature",
+            "Religion"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "name": "Arcane Recovery",
+          "desc": "You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
+        },
+        {
+          "name": "Ritual Adept",
+          "desc": "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way."
+        },
+        {
+          "name": "Spellcasting",
+          "desc": "As a student of arcane magic, you have learned to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.\n\nCantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.\n\nWhen you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.\n\nSpellbook. Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.\n\nThe book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. Detect Magic, Feather Fall, Mage Armor, Magic Missile, Sleep, and Thunderwave are recommended.\n\nWhenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.\n\nSpell Slots. The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.\n\nThe number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.\n\nIf another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.\n\nSpellcasting Ability. Intelligence is your spellcasting ability for your Wizard spells.\n\nSpellcasting Focus. You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.\n\nExpanding and Replacing a Spellbook\n\nThe spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.\n\nCopying a Spell into the Book. When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.\n\nCopying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook."
+        }
+      ],
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Arcane Focus (Quarterstaff)",
+              "qty": 1,
+              "srd": "Quarterstaff"
+            },
+            {
+              "name": "Robe",
+              "qty": 1,
+              "srd": "Robe"
+            },
+            {
+              "name": "Spellbook",
+              "qty": 1,
+              "srd": null
+            },
+            {
+              "name": "Scholar's Pack",
+              "qty": 1,
+              "srd": "Scholar's Pack"
+            }
+          ],
+          "gp": 5
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 55
+        }
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "name": "Acolyte",
+      "grants": {
+        "skills": [
+          "Insight",
+          "Religion"
+        ],
+        "tools": [
+          "Calligrapher's Supplies"
+        ]
+      },
+      "choices": [],
+      "abilityChoice": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "Magic Initiate (Cleric)",
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Calligrapher's Supplies",
+              "qty": 1,
+              "srd": "Calligrapher's Supplies"
+            },
+            {
+              "name": "Book (prayers)",
+              "qty": 1,
+              "srd": "Book"
+            },
+            {
+              "name": "Holy Symbol",
+              "qty": 1,
+              "srd": "Holy Symbol, Amulet"
+            },
+            {
+              "name": "Parchment",
+              "qty": 10,
+              "srd": "Parchment"
+            },
+            {
+              "name": "Robe",
+              "qty": 1,
+              "srd": "Robe"
+            }
+          ],
+          "gp": 8
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Criminal",
+      "grants": {
+        "skills": [
+          "Sleight of Hand",
+          "Stealth"
+        ],
+        "tools": [
+          "Thieves' Tools"
+        ]
+      },
+      "choices": [],
+      "abilityChoice": [
+        "dex",
+        "con",
+        "int"
+      ],
+      "feat": "Alert",
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Daggers",
+              "qty": 2,
+              "srd": "Dagger"
+            },
+            {
+              "name": "Thieves' Tools",
+              "qty": 1,
+              "srd": "Thieves' Tools"
+            },
+            {
+              "name": "Crowbar",
+              "qty": 1,
+              "srd": "Crowbar"
+            },
+            {
+              "name": "Pouches",
+              "qty": 2,
+              "srd": "Pouch"
+            },
+            {
+              "name": "Traveler's Clothes",
+              "qty": 1,
+              "srd": "Clothes, Traveler's"
+            }
+          ],
+          "gp": 16
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Sage",
+      "grants": {
+        "skills": [
+          "Arcana",
+          "History"
+        ],
+        "tools": [
+          "Calligrapher's Supplies"
+        ]
+      },
+      "choices": [],
+      "abilityChoice": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "feat": "Magic Initiate (Wizard)",
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Quarterstaff",
+              "qty": 1,
+              "srd": "Quarterstaff"
+            },
+            {
+              "name": "Calligrapher's Supplies",
+              "qty": 1,
+              "srd": "Calligrapher's Supplies"
+            },
+            {
+              "name": "Book (history)",
+              "qty": 1,
+              "srd": "Book"
+            },
+            {
+              "name": "Parchment",
+              "qty": 8,
+              "srd": "Parchment"
+            },
+            {
+              "name": "Robe",
+              "qty": 1,
+              "srd": "Robe"
+            }
+          ],
+          "gp": 8
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    },
+    {
+      "name": "Soldier",
+      "grants": {
+        "skills": [
+          "Athletics",
+          "Intimidation"
+        ],
+        "tools": []
+      },
+      "choices": [
+        {
+          "id": "background-tool",
+          "label": "Tool proficiency",
+          "kind": "tool",
+          "count": 1,
+          "from": [
+            "Dice set",
+            "Dragonchess set",
+            "Playing card set",
+            "Three-Dragon Ante set"
+          ]
+        }
+      ],
+      "abilityChoice": [
+        "str",
+        "dex",
+        "con"
+      ],
+      "feat": "Savage Attacker",
+      "equipment": [
+        {
+          "label": "A",
+          "items": [
+            {
+              "name": "Spear",
+              "qty": 1,
+              "srd": "Spear"
+            },
+            {
+              "name": "Shortbow",
+              "qty": 1,
+              "srd": "Shortbow"
+            },
+            {
+              "name": "Arrows (20)",
+              "qty": 1,
+              "srd": "Arrows (20)"
+            },
+            {
+              "name": "Gaming Set (same as above)",
+              "qty": 1,
+              "srd": "Gaming Set, Dice"
+            },
+            {
+              "name": "Healer's Kit",
+              "qty": 1,
+              "srd": "Healer's Kit"
+            },
+            {
+              "name": "Quiver",
+              "qty": 1,
+              "srd": "Quiver"
+            },
+            {
+              "name": "Traveler's Clothes",
+              "qty": 1,
+              "srd": "Clothes, Traveler's"
+            }
+          ],
+          "gp": 14
+        },
+        {
+          "label": "B",
+          "items": [],
+          "gp": 50
+        }
+      ]
+    }
+  ],
+  "feats": {
+    "Alert": "You gain the following benefits.\n• When you roll Initiative, you can add your Proficiency Bonus to the roll.\n• Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
+    "Magic Initiate": "You gain the following benefits.\n• You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n• Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n• Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n• You can take this feat more than once, but you must choose a different spell list each time.",
+    "Savage Attacker": "• You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
+    "Skilled": "• You gain proficiency in any combination of three skills or tools of your choice.\n• You can take this feat more than once."
+  },
+  "items": {
+    "Arrows (20)": {
+      "type": "Ammunition",
+      "wt": 1,
+      "cost": 1,
+      "desc": "Ammunition for weapons that use arrows. Comes in a pack of 20. Typically stored in a quiver."
+    },
+    "Book": {
+      "type": "Adventuring Gear",
+      "wt": 5,
+      "cost": 25,
+      "desc": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."
+    },
+    "Burglar's Pack": {
+      "type": "Equipment Pack",
+      "wt": 42,
+      "cost": 16,
+      "desc": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+    },
+    "Calligrapher's Supplies": {
+      "type": "Tools",
+      "wt": 5,
+      "cost": 10,
+      "desc": "Ability: Dexterity. Utilize: Write text with impressive flourishes that guard against forgery (DC 15). Craft: Ink, Spell Scroll"
+    },
+    "Chain Mail": {
+      "type": "Armor",
+      "wt": 55,
+      "cost": 75,
+      "desc": "Heavy armor, AC 16. Strength 13. Disadvantage on Stealth."
+    },
+    "Chain Shirt": {
+      "type": "Armor",
+      "wt": 20,
+      "cost": 50,
+      "desc": "Medium armor, AC 13 + Dex modifier (max 2)."
+    },
+    "Clothes, Traveler's": {
+      "type": "Adventuring Gear",
+      "wt": 4,
+      "cost": 2,
+      "desc": "Traveler's Clothes are resilient garments designed for travel in various environments."
+    },
+    "Crowbar": {
+      "type": "Adventuring Gear",
+      "wt": 5,
+      "cost": 2,
+      "desc": "Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied."
+    },
+    "Dagger": {
+      "type": "Weapon",
+      "wt": 1,
+      "cost": 2,
+      "desc": "Simple melee weapon, 1d4 piercing. Properties: Finesse, Light, Thrown (Range 20/60). Mastery: Nick."
+    },
+    "Druidic Focus, Sprig of Mistletoe": {
+      "type": "Spellcasting Focus",
+      "wt": 0,
+      "cost": 1,
+      "desc": "A Druidic Focus is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus."
+    },
+    "Dungeoneer's Pack": {
+      "type": "Equipment Pack",
+      "wt": 55,
+      "cost": 12,
+      "desc": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+    },
+    "Entertainer's Pack": {
+      "type": "Equipment Pack",
+      "wt": 58,
+      "cost": 40,
+      "desc": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."
+    },
+    "Explorer's Pack": {
+      "type": "Equipment Pack",
+      "wt": 55,
+      "cost": 10,
+      "desc": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+    },
+    "Flail": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 10,
+      "desc": "Martial melee weapon, 1d8 bludgeoning. Mastery: Sap."
+    },
+    "Gaming Set, Dice": {
+      "type": "Tools",
+      "wt": 0,
+      "cost": 0.1,
+      "desc": "Ability: Wisdom. Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+    },
+    "Greataxe": {
+      "type": "Weapon",
+      "wt": 7,
+      "cost": 30,
+      "desc": "Martial melee weapon, 1d12 slashing. Properties: Heavy, Two-Handed. Mastery: Cleave."
+    },
+    "Greatsword": {
+      "type": "Weapon",
+      "wt": 6,
+      "cost": 50,
+      "desc": "Martial melee weapon, 2d6 slashing. Properties: Heavy, Two-Handed. Mastery: Graze."
+    },
+    "Handaxe": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 5,
+      "desc": "Simple melee weapon, 1d6 slashing. Properties: Light, Thrown (Range 20/60). Mastery: Vex."
+    },
+    "Healer's Kit": {
+      "type": "Tools",
+      "wt": 3,
+      "cost": 5,
+      "desc": "A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check."
+    },
+    "Herbalism Kit": {
+      "type": "Tools",
+      "wt": 3,
+      "cost": 5,
+      "desc": "Ability: Intelligence. Utilize: Identify a plant (DC 15). Craft: Antitoxin, Potion of Healing"
+    },
+    "Holy Symbol, Amulet": {
+      "type": "Adventuring Gear",
+      "wt": 1,
+      "cost": 5,
+      "desc": "A Holy Symbol Amulet is bejeweled or painted to channel divine magic. A Cleric or Paladin can use it as a Spellcasting Focus. It can be worn around the neck or held in hand."
+    },
+    "Javelin": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 0.5,
+      "desc": "Simple melee weapon, 1d6 piercing. Properties: Thrown (Range 30/120). Mastery: Slow."
+    },
+    "Leather Armor": {
+      "type": "Armor",
+      "wt": 10,
+      "cost": 10,
+      "desc": "Light armor, AC 11 + Dex modifier."
+    },
+    "Longbow": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 50,
+      "desc": "Martial ranged weapon, 1d8 piercing. Properties: Ammunition (Range 150/600; Arrow), Heavy, Two-Handed. Mastery: Slow."
+    },
+    "Longsword": {
+      "type": "Weapon",
+      "wt": 3,
+      "cost": 15,
+      "desc": "Martial melee weapon, 1d8 slashing. Properties: Versatile (1d10). Mastery: Sap."
+    },
+    "Mace": {
+      "type": "Weapon",
+      "wt": 4,
+      "cost": 5,
+      "desc": "Simple melee weapon, 1d6 bludgeoning. Mastery: Sap."
+    },
+    "Parchment": {
+      "type": "Adventuring Gear",
+      "wt": 0,
+      "cost": 0.1,
+      "desc": "One sheet of Parchment can hold about 250 handwritten words."
+    },
+    "Pouch": {
+      "type": "Adventuring Gear",
+      "wt": 1,
+      "cost": 0.5,
+      "desc": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot."
+    },
+    "Priest's Pack": {
+      "type": "Equipment Pack",
+      "wt": 29,
+      "cost": 33,
+      "desc": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+    },
+    "Quarterstaff": {
+      "type": "Weapon",
+      "wt": 4,
+      "cost": 0.2,
+      "desc": "Simple melee weapon, 1d6 bludgeoning. Properties: Versatile (1d8). Mastery: Topple."
+    },
+    "Quiver": {
+      "type": "Adventuring Gear",
+      "wt": 1,
+      "cost": 1,
+      "desc": "A Quiver holds up to 20 Arrows."
+    },
+    "Robe": {
+      "type": "Adventuring Gear",
+      "wt": 4,
+      "cost": 1,
+      "desc": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols."
+    },
+    "Scholar's Pack": {
+      "type": "Equipment Pack",
+      "wt": 22,
+      "cost": 40,
+      "desc": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+    },
+    "Scimitar": {
+      "type": "Weapon",
+      "wt": 3,
+      "cost": 25,
+      "desc": "Martial melee weapon, 1d6 slashing. Properties: Finesse, Light. Mastery: Nick."
+    },
+    "Shield": {
+      "type": "Armor",
+      "wt": 6,
+      "cost": 10,
+      "desc": "Shield, +2 AC."
+    },
+    "Shortbow": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 25,
+      "desc": "Simple ranged weapon, 1d6 piercing. Properties: Ammunition (Range 80/320; Arrow), Two-Handed. Mastery: Vex."
+    },
+    "Shortsword": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 10,
+      "desc": "Martial melee weapon, 1d6 piercing. Properties: Finesse, Light. Mastery: Vex."
+    },
+    "Sickle": {
+      "type": "Weapon",
+      "wt": 2,
+      "cost": 1,
+      "desc": "Simple melee weapon, 1d4 slashing. Properties: Light. Mastery: Nick."
+    },
+    "Spear": {
+      "type": "Weapon",
+      "wt": 3,
+      "cost": 1,
+      "desc": "Simple melee weapon, 1d6 piercing. Properties: Thrown (Range 20/60), Versatile (1d8). Mastery: Sap."
+    },
+    "Studded Leather Armor": {
+      "type": "Armor",
+      "wt": 13,
+      "cost": 45,
+      "desc": "Light armor, AC 12 + Dex modifier."
+    },
+    "Thieves' Tools": {
+      "type": "Tools",
+      "wt": 1,
+      "cost": 25,
+      "desc": "Ability: Dexterity. Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)"
+    }
+  },
+  "spells": [
+    {
+      "name": "Acid Splash",
+      "level": 0,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "acid"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.\n\nCantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+    },
+    {
+      "name": "Alarm",
+      "level": 1,
+      "act": "1M",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Ranger",
+        "Wizard"
+      ],
+      "school": "Abjuration",
+      "desc": "You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is audible or mental:\n\nAudible Alarm. The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area.\n\nMental Alarm. You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you're asleep."
+    },
+    {
+      "name": "Animal Friendship",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger"
+      ],
+      "school": "Enchantment",
+      "desc": "Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. If you or one of your allies deals damage to the target, the spells ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional Beast for each spell slot level above 1."
+    },
+    {
+      "name": "Bane",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "cha"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Warlock"
+      ],
+      "school": "Enchantment",
+      "desc": "Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Bless",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "school": "Enchantment",
+      "desc": "You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Burning Hands",
+      "level": 1,
+      "act": "A",
+      "range": "Self (15-foot cone)",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [
+        {
+          "n": 3,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "fire"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one. Flammable objects in the Cone that aren't being worn or carried start burning.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    },
+    {
+      "name": "Charm Person",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Enchantment",
+      "desc": "One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Chill Touch",
+      "level": 0,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "necrotic"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Necromancy",
+      "desc": "Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.\n\nCantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+    },
+    {
+      "name": "Chromatic Orb",
+      "level": 1,
+      "act": "A",
+      "range": "90 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type. If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can't leap again unless you cast the spell with a level 2+ spell slot.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell."
+    },
+    {
+      "name": "Color Spray",
+      "level": 1,
+      "act": "A",
+      "range": "Self (15-foot cone)",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "con"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn."
+    },
+    {
+      "name": "Command",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Paladin"
+      ],
+      "school": "Enchantment",
+      "desc": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:\n\n• Drop. The target drops whatever it is holding and then ends its turn.\n• Flee. The target spends its turn moving away from you by the fastest available means.\n• Grovel. The target has the Prone condition and then ends its turn.\n• Halt. On its turn, the target doesn't move and takes no action or Bonus Action.\n\nUsing a Higher-Level Spell Slot. You can affect one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Comprehend Languages",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Divination",
+      "desc": "For the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages."
+    },
+    {
+      "name": "Create or Destroy Water",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "school": "Transmutation",
+      "desc": "You do one of the following:\n\nCreate Water. You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.\n\nDestroy Water. You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.\n\nUsing a Higher-Level Spell Slot. You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1."
+    },
+    {
+      "name": "Cure Wounds",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 2,
+          "d": 8,
+          "ab": "sc",
+          "flat": 0,
+          "type": "healing"
+        }
+      ],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "school": "Abjuration",
+      "desc": "A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d8 for each spell slot level above 1."
+    },
+    {
+      "name": "Dancing Lights",
+      "level": 0,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10 foot radius. As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range."
+    },
+    {
+      "name": "Detect Evil and Good",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "school": "Divination",
+      "desc": "For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+    },
+    {
+      "name": "Detect Magic",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": true,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Divination",
+      "desc": "For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+    },
+    {
+      "name": "Detect Poison and Disease",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": true,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger"
+      ],
+      "school": "Divination",
+      "desc": "For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+    },
+    {
+      "name": "Disguise Self",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You make yourself—including your clothing, armor, weapons, and other belongings on your person look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you. The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing. To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC."
+    },
+    {
+      "name": "Dissonant Whispers",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [
+        {
+          "n": 3,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "psychic"
+        }
+      ],
+      "classes": [
+        "Bard"
+      ],
+      "school": "Enchantment",
+      "desc": "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only."
+    },
+    {
+      "name": "Divine Favor",
+      "level": 1,
+      "act": "BA",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 4,
+          "ab": "",
+          "flat": 0,
+          "type": "radiant"
+        }
+      ],
+      "classes": [
+        "Paladin"
+      ],
+      "school": "Transmutation",
+      "desc": "Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit."
+    },
+    {
+      "name": "Divine Smite",
+      "level": 1,
+      "act": "BA",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 2,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "radiant"
+        }
+      ],
+      "classes": [
+        "Paladin"
+      ],
+      "school": "Evocation",
+      "desc": "The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+    },
+    {
+      "name": "Druidcraft",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid"
+      ],
+      "school": "Transmutation",
+      "desc": "Whispering to the spirits of nature, you create one of the following effects within range.\n\n• Weather Sensor. You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.\n• Bloom. You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.\n• Sensory Effect. You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.\n• Fire Play. You light or snuff out a candle, a torch, or a campfire."
+    },
+    {
+      "name": "Eldritch Blast",
+      "level": 0,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "force"
+        }
+      ],
+      "classes": [
+        "Warlock"
+      ],
+      "school": "Evocation",
+      "desc": "You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.\n\nCantrip Upgrade. The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+    },
+    {
+      "name": "Elementalism",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You exert control over the elements, creating one of the following effects within range.\n\nBeckon Air. You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren't affected.\n\nBeckon Earth. You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.\n\nBeckon Fire. You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke's scent lingers for 1 minute.\n\nBeckon Water. You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.\n\nSculpt Element. You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour."
+    },
+    {
+      "name": "Ensnaring Strike",
+      "level": 1,
+      "act": "BA",
+      "range": "Self",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "str"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "piercing"
+        }
+      ],
+      "classes": [
+        "Ranger"
+      ],
+      "school": "Conjuration",
+      "desc": "As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the Restrained condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends. While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your spell save DC. On a success, the spell ends.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    },
+    {
+      "name": "Entangle",
+      "level": 1,
+      "act": "A",
+      "range": "90 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "str"
+      },
+      "dmg": [],
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "school": "Conjuration",
+      "desc": "Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends. Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the Restrained condition until the spell ends. A Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them."
+    },
+    {
+      "name": "Expeditious Retreat",
+      "level": 1,
+      "act": "BA",
+      "range": "Self",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action."
+    },
+    {
+      "name": "Faerie Fire",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid"
+      ],
+      "school": "Evocation",
+      "desc": "Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition. Attack rolls against an affected creature or object have Advantage if the attacker can see it."
+    },
+    {
+      "name": "False Life",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 2,
+          "d": 4,
+          "ab": "",
+          "flat": 4,
+          "type": "temp. hp"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Necromancy",
+      "desc": "You gain 2d4 + 4 Temporary Hit Points.\n\nUsing a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1."
+    },
+    {
+      "name": "Feather Fall",
+      "level": 1,
+      "act": "R",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature."
+    },
+    {
+      "name": "Find Familiar",
+      "level": 1,
+      "act": "1H",
+      "range": "10 ft.",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "You gain the service of a familiar, a spirit that takes an animal form you choose: Bat, Cat, Frog, Hawk, Lizard, Octopus, Owl, Rat, Raven, Spider, Weasel, or another Beast that has a Challenge Rating of 0. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (see \"Monsters\"), though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.\n\nTelepathic Connection. While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has.\n\nFinally, when you cast a spell with a range of touch, your familiar can deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the touch when you cast the spell.\n\nCombat. The familiar is an ally to you and your allies. It rolls its own Initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.\n\nDisappearance of the Familiar. When the familiar drops to 0 Hit Points, it disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.\n\nOne Familiar Only. You can't have more than one familiar at a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible form."
+    },
+    {
+      "name": "Fire Bolt",
+      "level": 0,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "fire"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.\n\nCantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+    },
+    {
+      "name": "Floating Disk",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground. The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom. If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
+    },
+    {
+      "name": "Fog Cloud",
+      "level": 1,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.\n\nUsing a Higher-Level Spell Slot. The fog's radius increases by 20 feet for each spell slot level above 1."
+    },
+    {
+      "name": "Goodberry",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "school": "Conjuration",
+      "desc": "Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day. Uneaten berries disappear when the spell ends."
+    },
+    {
+      "name": "Grease",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "Nonflammable grease covers the ground in a 10 foot square centered on a point within range and turns it into Difficult Terrain for the duration. When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone."
+    },
+    {
+      "name": "Guidance",
+      "level": 0,
+      "act": "A",
+      "range": "Touch",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "school": "Divination",
+      "desc": "You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill."
+    },
+    {
+      "name": "Guiding Bolt",
+      "level": 1,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 4,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "radiant"
+        }
+      ],
+      "classes": [
+        "Cleric"
+      ],
+      "school": "Evocation",
+      "desc": "You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    },
+    {
+      "name": "Healing Word",
+      "level": 1,
+      "act": "BA",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 2,
+          "d": 4,
+          "ab": "sc",
+          "flat": 0,
+          "type": "healing"
+        }
+      ],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid"
+      ],
+      "school": "Abjuration",
+      "desc": "A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d4 for each spell slot level above 1."
+    },
+    {
+      "name": "Hellish Rebuke",
+      "level": 1,
+      "act": "R",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [
+        {
+          "n": 2,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "fire"
+        }
+      ],
+      "classes": [
+        "Warlock"
+      ],
+      "school": "Evocation",
+      "desc": "The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1."
+    },
+    {
+      "name": "Heroism",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Paladin"
+      ],
+      "school": "Enchantment",
+      "desc": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Hex",
+      "level": 1,
+      "act": "BA",
+      "range": "90 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "necrotic"
+        }
+      ],
+      "classes": [
+        "Warlock"
+      ],
+      "school": "Enchantment",
+      "desc": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.\n\nUsing a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours)."
+    },
+    {
+      "name": "Hideous Laughter",
+      "level": 1,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Enchantment",
+      "desc": "One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the Prone and Incapacitated conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself. At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Hunter's Mark",
+      "level": 1,
+      "act": "BA",
+      "range": "90 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "force"
+        }
+      ],
+      "classes": [
+        "Ranger"
+      ],
+      "school": "Divination",
+      "desc": "You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.\n\nUsing a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours)."
+    },
+    {
+      "name": "Ice Knife",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "piercing"
+        }
+      ],
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n\nUsing a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1."
+    },
+    {
+      "name": "Identify",
+      "level": 1,
+      "act": "1M",
+      "range": "Touch",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
+      "school": "Divination",
+      "desc": "You touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name. If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it."
+    },
+    {
+      "name": "Illusory Script",
+      "level": 1,
+      "act": "1M",
+      "range": "Touch",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know. If the spell is dispelled, the original script and the illusion both disappear. A creature that has Truesight can read the hidden message."
+    },
+    {
+      "name": "Inflict Wounds",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "con"
+      },
+      "dmg": [
+        {
+          "n": 2,
+          "d": 10,
+          "ab": "",
+          "flat": 0,
+          "type": "necrotic"
+        }
+      ],
+      "classes": [
+        "Cleric"
+      ],
+      "school": "Necromancy",
+      "desc": "A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1."
+    },
+    {
+      "name": "Jump",
+      "level": 1,
+      "act": "BA",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Light",
+      "level": 0,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like. Covering the object with something opaque blocks the light. The spell ends if you cast it again."
+    },
+    {
+      "name": "Longstrider",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You touch a creature. The target's Speed increases by 10 feet until the spell ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    },
+    {
+      "name": "Mage Armor",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Abjuration",
+      "desc": "You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor."
+    },
+    {
+      "name": "Mage Hand",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet. The hand can't attack, activate magic items, or carry more than 10 pounds."
+    },
+    {
+      "name": "Magic Missile",
+      "level": 1,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 4,
+          "ab": "",
+          "flat": 1,
+          "type": "force"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n\nUsing a Higher-Level Spell Slot. The spell creates one more dart for each spell slot level above 1."
+    },
+    {
+      "name": "Mending",
+      "level": 0,
+      "act": "1M",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage. This spell can physically repair a magic item, but it can't restore magic to such an object."
+    },
+    {
+      "name": "Message",
+      "level": 0,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear. You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell."
+    },
+    {
+      "name": "Minor Illusion",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again. If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.\n\nSound. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nImage. If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it."
+    },
+    {
+      "name": "Poison Spray",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 12,
+          "ab": "",
+          "flat": 0,
+          "type": "poison"
+        }
+      ],
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Necromancy",
+      "desc": "You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.\n\nCantrip Upgrade. The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12)."
+    },
+    {
+      "name": "Prestidigitation",
+      "level": 0,
+      "act": "A",
+      "range": "10 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Transmutation",
+      "desc": "You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.\n\nSensory Effect. You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n\nFire Play. You instantaneously light or snuff out a candle, a torch, or a small campfire.\n\nClean or Soil. You instantaneously clean or soil an object no larger than 1 cubic foot.\n\nMinor Sensation. You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n\nMagic Mark. You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n\nMinor Creation. You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth."
+    },
+    {
+      "name": "Produce Flame",
+      "level": 0,
+      "act": "BA",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "fire"
+        }
+      ],
+      "classes": [
+        "Druid"
+      ],
+      "school": "Conjuration",
+      "desc": "A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again. Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Protection from Evil and Good",
+      "level": 1,
+      "act": "A",
+      "range": "Touch",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Abjuration",
+      "desc": "Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect."
+    },
+    {
+      "name": "Purify Food and Drink",
+      "level": 1,
+      "act": "A",
+      "range": "10 ft.",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Paladin"
+      ],
+      "school": "Transmutation",
+      "desc": "You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range."
+    },
+    {
+      "name": "Ray of Frost",
+      "level": 0,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "cold"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Ray of Sickness",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 2,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "poison"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Necromancy",
+      "desc": "You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+    },
+    {
+      "name": "Resistance",
+      "level": 0,
+      "act": "A",
+      "range": "Touch",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "school": "Abjuration",
+      "desc": "You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn."
+    },
+    {
+      "name": "Sacred Flame",
+      "level": 0,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "dex"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "radiant"
+        }
+      ],
+      "classes": [
+        "Cleric"
+      ],
+      "school": "Evocation",
+      "desc": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Sanctuary",
+      "level": 1,
+      "act": "BA",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Cleric"
+      ],
+      "school": "Abjuration",
+      "desc": "You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from areas of effect. The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage."
+    },
+    {
+      "name": "Searing Smite",
+      "level": 1,
+      "act": "BA",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "con"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "fire"
+        }
+      ],
+      "classes": [
+        "Paladin"
+      ],
+      "school": "Evocation",
+      "desc": "As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1."
+    },
+    {
+      "name": "Shield",
+      "level": 1,
+      "act": "R",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Abjuration",
+      "desc": "An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from Magic Missile."
+    },
+    {
+      "name": "Shield of Faith",
+      "level": 1,
+      "act": "BA",
+      "range": "60 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Paladin"
+      ],
+      "school": "Abjuration",
+      "desc": "A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+    },
+    {
+      "name": "Shillelagh",
+      "level": 0,
+      "act": "BA",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Druid"
+      ],
+      "school": "Transmutation",
+      "desc": "A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice). The spell ends early if you cast it again or if you let go of the weapon.\n\nCantrip Upgrade. The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6)."
+    },
+    {
+      "name": "Shocking Grasp",
+      "level": 0,
+      "act": "A",
+      "range": "Touch",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "lightning"
+        }
+      ],
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Silent Image",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Illusion",
+      "desc": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects. As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
+    },
+    {
+      "name": "Sleep",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": true,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Enchantment",
+      "desc": "Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect. Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell."
+    },
+    {
+      "name": "Sorcerous Burst",
+      "level": 0,
+      "act": "A",
+      "range": "120 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Sorcerer"
+      ],
+      "school": "Evocation",
+      "desc": "You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder. If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Spare the Dying",
+      "level": 0,
+      "act": "A",
+      "range": "15 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric",
+        "Druid"
+      ],
+      "school": "Necromancy",
+      "desc": "Choose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable.\n\nCantrip Upgrade. The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet)."
+    },
+    {
+      "name": "Speak with Animals",
+      "level": 1,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger",
+        "Warlock"
+      ],
+      "school": "Divination",
+      "desc": "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them. Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+    },
+    {
+      "name": "Starry Wisp",
+      "level": 0,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": true,
+      "save": null,
+      "dmg": [
+        {
+          "n": 1,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "radiant"
+        }
+      ],
+      "classes": [
+        "Bard",
+        "Druid"
+      ],
+      "school": "Evocation",
+      "desc": "You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+    },
+    {
+      "name": "Thaumaturgy",
+      "level": 0,
+      "act": "A",
+      "range": "30 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Cleric"
+      ],
+      "school": "Transmutation",
+      "desc": "You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.\n\nAltered Eyes. You alter the appearance of your eyes for 1 minute.\n\nBooming Voice. Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.\n\nFire Play. You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\nInvisible Hand. You instantaneously cause an unlocked door or window to fly open or slam shut.\n\nPhantom Sound. You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\nTremors. You cause harmless tremors in the ground for 1 minute."
+    },
+    {
+      "name": "Thunderwave",
+      "level": 1,
+      "act": "A",
+      "range": "Self (15-foot cube)",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "con"
+      },
+      "dmg": [
+        {
+          "n": 2,
+          "d": 8,
+          "ab": "",
+          "flat": 0,
+          "type": "thunder"
+        }
+      ],
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "school": "Evocation",
+      "desc": "You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.\n\nIn addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+    },
+    {
+      "name": "True Strike",
+      "level": 0,
+      "act": "A",
+      "range": "Self",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Divination",
+      "desc": "Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).\n\nCantrip Upgrade. Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6)."
+    },
+    {
+      "name": "Unseen Servant",
+      "level": 1,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": true,
+      "hit": false,
+      "save": null,
+      "dmg": [],
+      "classes": [
+        "Bard",
+        "Warlock",
+        "Wizard"
+      ],
+      "school": "Conjuration",
+      "desc": "This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the spell ends. Once on each of your turns as a Bonus Action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command. If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends."
+    },
+    {
+      "name": "Vicious Mockery",
+      "level": 0,
+      "act": "A",
+      "range": "60 ft.",
+      "conc": false,
+      "ritual": false,
+      "hit": false,
+      "save": {
+        "target": "wis"
+      },
+      "dmg": [
+        {
+          "n": 1,
+          "d": 6,
+          "ab": "",
+          "flat": 0,
+          "type": "psychic"
+        }
+      ],
+      "classes": [
+        "Bard"
+      ],
+      "school": "Enchantment",
+      "desc": "You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.\n\nCantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+    }
+  ]
+}

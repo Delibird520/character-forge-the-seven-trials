@@ -1,0 +1,422 @@
+{
+  "darkvision": {
+    "q": "An enemy casts the Darkness spell over the goblins you are fighting. Can your Darkvision see inside it?",
+    "options": [
+      "Yes, Darkvision sees through any darkness",
+      "No, magical Darkness blocks Darkvision too",
+      "Only if you roll a high Perception check"
+    ],
+    "answer": 1,
+    "tip": "Darkvision lets you see in normal darkness (60 ft, in shades of gray), but the Darkness spell's magical darkness blocks it. Treat it like everyone else does: you are effectively blind inside it."
+  },
+  "no_darkvision": {
+    "q": "Your party enters an unlit cave. You do not have Darkvision. What is the smartest move?",
+    "options": [
+      "Charge in first to show courage",
+      "Light a torch or follow an ally who has Darkvision",
+      "Close your eyes and listen"
+    ],
+    "answer": 1,
+    "tip": "Without Darkvision you cannot see in darkness: attacks against you gain Advantage and your attacks have Disadvantage. Carry torches and let a Darkvision ally scout ahead."
+  },
+  "sleep_immune": {
+    "q": "A cultist casts the Sleep spell on your party. What happens to you?",
+    "options": [
+      "You fall asleep like everyone else",
+      "Nothing: magic can't put you to sleep, so you can wake your friends",
+      "You fall asleep but wake up next turn"
+    ],
+    "answer": 1,
+    "tip": "Trance: magic can't put you to sleep. When enemies use Sleep, you are the one who stays up and shakes your allies awake."
+  },
+  "charm_adv": {
+    "q": "A smooth-talking vampire tries to Charm you. How does your Fey Ancestry help?",
+    "options": [
+      "You are completely immune to every charm",
+      "You have Advantage on the saving throw to avoid or end being Charmed",
+      "It does nothing against vampires"
+    ],
+    "answer": 1,
+    "tip": "Fey Ancestry gives Advantage on saves against the Charmed condition. You are hard to charm, but not immune, so stay alert."
+  },
+  "poison_res": {
+    "q": "You trigger a poison-needle trap. How does Dwarven Resilience help?",
+    "options": [
+      "You take half the Poison damage and have Advantage on saves against being Poisoned",
+      "You take no damage at all",
+      "It only works against snake bites"
+    ],
+    "answer": 0,
+    "tip": "Dwarven Resilience: Resistance to Poison damage (half damage) and Advantage on saves to avoid or end the Poisoned condition. You are the natural trap tester."
+  },
+  "stonecunning": {
+    "q": "You are in a stone tunnel and suspect enemies are hiding nearby. Which Dwarf trait helps most?",
+    "options": [
+      "Stonecunning: gain Tremorsense on stone as a Bonus Action",
+      "Dwarven Toughness",
+      "Darkvision only"
+    ],
+    "answer": 0,
+    "tip": "Stonecunning: as a Bonus Action you gain Tremorsense (60 ft) while on or touching stone, a limited number of times per Long Rest. Use it to sense hidden creatures in dungeons."
+  },
+  "lucky": {
+    "q": "You roll a natural 1 on an attack roll. What can your Halfling Luck do?",
+    "options": [
+      "Nothing, a 1 always misses",
+      "Reroll the d20, and you must use the new roll",
+      "Turn it into a 20"
+    ],
+    "answer": 1,
+    "tip": "Luck: when you roll a 1 on the d20 of a D20 Test, you can reroll it and must use the new roll. Halflings fail less often than anyone else."
+  },
+  "brave": {
+    "q": "A dragon's roar tries to make you Frightened. What do you get from Brave?",
+    "options": [
+      "Advantage on the saving throw to avoid or end Frightened",
+      "Immunity to all damage",
+      "A free attack"
+    ],
+    "answer": 0,
+    "tip": "Brave: Advantage on saves to avoid or end the Frightened condition, so you can keep fighting when others panic."
+  },
+  "nimble": {
+    "q": "An ogre blocks a narrow corridor. As a Halfling, what can you do?",
+    "options": [
+      "Nothing, you must go around",
+      "Move through the ogre's space because it is larger than you",
+      "Push the ogre over automatically"
+    ],
+    "answer": 1,
+    "tip": "Halfling Nimbleness: you can move through the space of any creature that is a size larger than you (you just can't stop there)."
+  },
+  "gnome_cunning": {
+    "q": "An enemy casts a spell that targets your mind (a Wisdom save). How does Gnomish Cunning help?",
+    "options": [
+      "You have Advantage on Intelligence, Wisdom and Charisma saving throws",
+      "You can't be targeted by spells",
+      "It only helps with puzzles"
+    ],
+    "answer": 0,
+    "tip": "Gnomish Cunning: Advantage on Intelligence, Wisdom and Charisma saves, which covers many mind-affecting spells."
+  },
+  "breath_weapon": {
+    "q": "Three goblins stand in a straight line in a corridor. What should a Dragonborn do?",
+    "options": [
+      "Attack one goblin with a dagger",
+      "Replace one attack with a 30-foot Line Breath Weapon to hit all three",
+      "Wait for them to spread out"
+    ],
+    "answer": 1,
+    "tip": "Breath Weapon replaces one attack of the Attack action: a 15-ft Cone or 30-ft Line, Dexterity save for half. Uses equal your Proficiency Bonus per Long Rest, so save it for groups."
+  },
+  "resistance": {
+    "q": "You have Resistance to a damage type and are hit for 10 damage of that type. How much do you take?",
+    "options": [
+      "10",
+      "5",
+      "0"
+    ],
+    "answer": 1,
+    "tip": "Resistance halves damage of that type (rounded down). Check which damage type your species resists and stand in front of enemies who deal it."
+  },
+  "relentless": {
+    "q": "A heavy blow drops you to 0 Hit Points (but doesn't kill you outright). What can Relentless Endurance do?",
+    "options": [
+      "Drop to 1 Hit Point instead, once per Long Rest",
+      "Heal you to full",
+      "Nothing at all"
+    ],
+    "answer": 0,
+    "tip": "Relentless Endurance: once per Long Rest, when reduced to 0 HP but not killed outright, you drop to 1 HP instead. It is a second chance, not a reason to be careless."
+  },
+  "adrenaline": {
+    "q": "You need to reach a fleeing enemy fast. What does Adrenaline Rush allow?",
+    "options": [
+      "Dash as a Bonus Action and gain Temporary Hit Points",
+      "Teleport 30 feet",
+      "Take two full turns"
+    ],
+    "answer": 0,
+    "tip": "Adrenaline Rush: Dash as a Bonus Action and gain Temporary HP equal to your Proficiency Bonus, a limited number of times per rest."
+  },
+  "large_build": {
+    "q": "A monster Grapples you. How does Powerful Build help a Goliath?",
+    "options": [
+      "Advantage on checks to end the Grappled condition",
+      "You can never be grappled",
+      "You grow to Huge size"
+    ],
+    "answer": 0,
+    "tip": "Powerful Build: Advantage on checks to escape a Grapple, and you count as one size larger for carrying capacity."
+  },
+  "heroic_inspiration": {
+    "q": "Humans gain Heroic Inspiration after a Long Rest. What does it let you do?",
+    "options": [
+      "Reroll any one die you roll, using the new roll",
+      "Automatically succeed on a save",
+      "Take an extra turn"
+    ],
+    "answer": 0,
+    "tip": "Resourceful: you gain Heroic Inspiration whenever you finish a Long Rest. Spend it to reroll one die right after rolling it, then use the new result. Don't hoard it."
+  },
+  "frontline": {
+    "q": "An orc rushes toward your party's wizard. As a tough, well-armored hero, what is your job?",
+    "options": [
+      "Hide behind the wizard",
+      "Step between the orc and the wizard and hold the line",
+      "Run away to get help"
+    ],
+    "answer": 1,
+    "tip": "You have high Hit Points and/or armor: you are a front-liner. Stand between enemies and fragile allies so the enemy has to deal with you first."
+  },
+  "fragile": {
+    "q": "A goblin with a scimitar runs up next to you. You have few Hit Points and light (or no) armor. What should you do?",
+    "options": [
+      "Trade melee blows with it",
+      "Move behind your front-liners and keep attacking from range",
+      "Drop prone and hope"
+    ],
+    "answer": 1,
+    "tip": "You are fragile in melee. Stay behind armored allies and fight from range. If you must leave an enemy's reach, remember that it may get an Opportunity Attack unless you Disengage."
+  },
+  "ranged": {
+    "q": "You make a ranged attack with a bow while an enemy is standing right next to you. What happens?",
+    "options": [
+      "Nothing special",
+      "You have Disadvantage on the attack",
+      "Your attack automatically hits"
+    ],
+    "answer": 1,
+    "tip": "Ranged attacks have Disadvantage when an enemy is within 5 feet of you. Keep your distance, or step away first (Disengage avoids Opportunity Attacks)."
+  },
+  "spellcaster": {
+    "q": "You are concentrating on one spell and cast another spell that also needs Concentration. What happens?",
+    "options": [
+      "Both spells keep working",
+      "The first spell ends",
+      "The second spell fails"
+    ],
+    "answer": 1,
+    "tip": "You can concentrate on only one spell at a time; casting a second Concentration spell ends the first. Pick your Concentration spell carefully."
+  },
+  "concentration_hit": {
+    "q": "An arrow hits you while you are concentrating on a spell. What must you do?",
+    "options": [
+      "Nothing",
+      "Make a Constitution saving throw to keep Concentration",
+      "End the spell immediately"
+    ],
+    "answer": 1,
+    "tip": "Taking damage forces a Constitution save (DC 10 or half the damage, whichever is higher) to keep Concentration. Staying out of reach protects your spells."
+  },
+  "slots": {
+    "q": "You used both of your level 1 spell slots. When do you get them back?",
+    "options": [
+      "At the start of your next turn",
+      "When you finish a Long Rest",
+      "Never"
+    ],
+    "answer": 1,
+    "tip": "Your spell slots return after a Long Rest. Cantrips are free and unlimited, so use them for ordinary attacks and save slots for important moments."
+  },
+  "pact_magic": {
+    "q": "As a Warlock, when do your Pact Magic spell slots come back?",
+    "options": [
+      "Only after a Long Rest",
+      "After a Short or Long Rest",
+      "Every turn"
+    ],
+    "answer": 1,
+    "tip": "Pact Magic slots come back on a Short Rest. Ask the party for a short break after a fight so you can recover them."
+  },
+  "rage": {
+    "q": "You are Raging. Can you cast spells or keep Concentration?",
+    "options": [
+      "Yes, as normal",
+      "No, Rage stops spellcasting and Concentration",
+      "Only cantrips"
+    ],
+    "answer": 1,
+    "tip": "While Raging you resist Bludgeoning, Piercing and Slashing damage and hit harder with Strength attacks, but you can't cast spells or concentrate, and you can't enter Rage in Heavy armor."
+  },
+  "unarmored": {
+    "q": "Your class has Unarmored Defense. Should you put on heavy armor you found?",
+    "options": [
+      "Yes, more armor is always better",
+      "Usually no: Unarmored Defense works only while you wear no armor",
+      "Only on Tuesdays"
+    ],
+    "answer": 1,
+    "tip": "Unarmored Defense sets your AC from Dexterity plus another ability while you wear no armor. Raising those abilities protects you better than most armor."
+  },
+  "sneak_attack": {
+    "q": "When can a Rogue add Sneak Attack damage?",
+    "options": [
+      "Every attack, always",
+      "Once per turn, with a Finesse or Ranged weapon, when you have Advantage or an ally is next to the target",
+      "Only when the enemy is asleep"
+    ],
+    "answer": 1,
+    "tip": "Sneak Attack: once per turn, Finesse or Ranged weapon, with Advantage or an ally within 5 ft of the target (and no Disadvantage). Team up with your front-liners."
+  },
+  "second_wind": {
+    "q": "You are a Fighter at low Hit Points in the middle of combat. What quick option do you have?",
+    "options": [
+      "Second Wind: a Bonus Action to regain 1d10 + Fighter level HP",
+      "Nothing until the fight ends",
+      "Drink the river"
+    ],
+    "answer": 0,
+    "tip": "Second Wind heals you as a Bonus Action and has limited uses that recover on rests. Use it before you drop too low."
+  },
+  "lay_on_hands": {
+    "q": "Your ally is about to fall. How does a Paladin's Lay On Hands work?",
+    "options": [
+      "Touch to restore HP from a healing pool (5 x Paladin level)",
+      "It deals radiant damage",
+      "It only works on yourself"
+    ],
+    "answer": 0,
+    "tip": "Lay On Hands: a pool of healing equal to 5 x your Paladin level that recovers on a Long Rest. Use it as a Bonus Action to keep allies standing."
+  },
+  "bardic_inspiration": {
+    "q": "Your friend is about to attempt a very important roll. What can a Bard do?",
+    "options": [
+      "Give Bardic Inspiration as a Bonus Action so they can add a d6",
+      "Make the roll for them",
+      "Nothing"
+    ],
+    "answer": 0,
+    "tip": "Bardic Inspiration: as a Bonus Action, give an ally within 60 ft a d6 they can add to a failed D20 Test. Uses equal your Charisma modifier per Long Rest."
+  },
+  "martial_arts": {
+    "q": "As a Monk, what can you do with your Bonus Action in combat?",
+    "options": [
+      "Make an Unarmed Strike with Martial Arts",
+      "Nothing: Monks only get one attack",
+      "Cast Fireball"
+    ],
+    "answer": 0,
+    "tip": "Martial Arts lets you make an Unarmed Strike as a Bonus Action, using Dexterity and your Martial Arts die. Monks hit often but have modest HP, so move in and out."
+  },
+  "ritual": {
+    "q": "As a Wizard, how can you cast Detect Magic without spending a spell slot?",
+    "options": [
+      "Cast it as a Ritual, which takes 10 minutes longer",
+      "You can't",
+      "Shout it louder"
+    ],
+    "answer": 0,
+    "tip": "Ritual Adept: you can cast any Ritual spell in your spellbook as a Ritual without preparing it. It takes 10 extra minutes but costs no slot. Great when you aren't rushed."
+  },
+  "heavy_stealth": {
+    "q": "You wear Chain Mail and want to sneak past guards. What is the problem?",
+    "options": [
+      "Chain Mail gives Disadvantage on Stealth checks",
+      "Chain Mail makes you invisible",
+      "There is no problem"
+    ],
+    "answer": 0,
+    "tip": "Heavy armor like Chain Mail gives Disadvantage on Stealth. Let a quieter ally scout, or take the armor off for sneaky missions."
+  },
+  "weapon_mastery": {
+    "q": "What does your Weapon Mastery feature do?",
+    "options": [
+      "Use a special mastery property (such as Topple, Vex or Sap) of chosen weapons",
+      "Make every weapon deal double damage",
+      "Nothing at level 1"
+    ],
+    "answer": 0,
+    "tip": "Weapon Mastery unlocks each chosen weapon's mastery property, for example Vex gives Advantage on your next attack and Topple can knock a target Prone. Read your weapon's property."
+  },
+  "low_con": {
+    "q": "Your Constitution modifier is 0 or lower. What does that mean for you?",
+    "options": [
+      "Fewer Hit Points and weaker Concentration saves",
+      "More Hit Points",
+      "Nothing important"
+    ],
+    "answer": 0,
+    "tip": "Low Constitution means fewer Hit Points and weaker Constitution saves. Avoid taking hits and don't stand in the front line."
+  },
+  "low_dex": {
+    "q": "Your Dexterity modifier is 0 or lower. Which of these is affected?",
+    "options": [
+      "Your Initiative, Dexterity saves and ranged attacks",
+      "Your Hit Points",
+      "Your spell slots"
+    ],
+    "answer": 0,
+    "tip": "Low Dexterity means you often act later in combat and are worse at dodging area effects like fireballs. Stay near allies and don't rely on stealth."
+  },
+  "opportunity": {
+    "q": "You walk away from an enemy who is right next to you. What can it do?",
+    "options": [
+      "Nothing",
+      "Make an Opportunity Attack against you, unless you took the Disengage action",
+      "Follow you for free"
+    ],
+    "answer": 1,
+    "tip": "Leaving an enemy's reach provokes an Opportunity Attack. Take the Disengage action first if you need to retreat safely."
+  },
+  "death_saves": {
+    "q": "You drop to 0 Hit Points. What happens?",
+    "options": [
+      "You die immediately",
+      "You fall Unconscious and make Death Saving Throws each turn",
+      "Nothing changes"
+    ],
+    "answer": 1,
+    "tip": "At 0 HP you fall Unconscious and make Death Saving Throws: three successes stabilise you, three failures mean death, and any healing brings you back up."
+  },
+  "advantage": {
+    "q": "What does it mean to roll with Advantage?",
+    "options": [
+      "Roll two d20s and use the higher one",
+      "Add +5 to the roll",
+      "Roll two d20s and use the lower one"
+    ],
+    "answer": 0,
+    "tip": "Advantage: roll two d20s and take the higher. Disadvantage: take the lower. In the Codex, hold Shift for Advantage and Ctrl for Disadvantage when you click a roll."
+  },
+  "help": {
+    "q": "You can't attack the enemy this turn, but your friend can. What could you do?",
+    "options": [
+      "Take the Help action to give your ally Advantage",
+      "Skip your turn",
+      "Attack your friend"
+    ],
+    "answer": 0,
+    "tip": "The Help action can give an ally Advantage on their next attack against a nearby enemy or on an ability check. Teamwork wins fights."
+  },
+  "short_rest": {
+    "q": "After a fight you are hurt but the party can't sleep yet. What can you do?",
+    "options": [
+      "Take a Short Rest and spend Hit Point Dice to heal",
+      "Nothing until the next day",
+      "Drink seawater"
+    ],
+    "answer": 0,
+    "tip": "On a Short Rest (1 hour) you can spend Hit Point Dice to recover HP. A Long Rest restores all HP and most features."
+  },
+  "critical": {
+    "q": "You roll a natural 20 on an attack roll. What happens?",
+    "options": [
+      "It is a Critical Hit: you roll the attack's damage dice twice",
+      "It misses",
+      "The enemy dies instantly"
+    ],
+    "answer": 0,
+    "tip": "A natural 20 on an attack always hits and is a Critical Hit: roll the damage dice twice and add your modifier once."
+  },
+  "cover": {
+    "q": "Goblins shoot arrows at you from the trees. How can you protect yourself?",
+    "options": [
+      "Stand in the open road",
+      "Move behind a rock or tree to gain Cover (+2 AC or more)",
+      "Close your eyes"
+    ],
+    "answer": 1,
+    "tip": "Half Cover gives +2 AC and three-quarters Cover +5 AC. On a battle map, rocks, walls and trees are your friends."
+  }
+}
